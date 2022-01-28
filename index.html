@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="">
     <title></title>
     <meta name="description" content="">
     <!-- Bootstrap -->
@@ -11,21 +10,31 @@
     <!-- LESS -->
     <link rel="stylesheet/less" type="text/css" href="css/styles.less" />
     <!-- CSS -->
-    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <!--<link href="css/styles.css" rel="stylesheet" type="text/css" /> -->
+    <!-- Google Fonts (Roboto) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
   </head>
   <body>
     <!--Header: contains nav, business name and button -->
     <header>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>Menu</li>
-          <li>About Us</li>
-          <li>Order Now</li>
-        </ul>
+      <nav class="navbar navbar-default navbar-expand-sm">
+        <button type="button" data-bs-toggle = "collapse" data-bs-target="#navbarNav" class="m-3 navbar-toggler"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon">&#9776;</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="container navbar-nav">
+            <li class="navitem p-3"><a href="#" class="nav-link">Home</a></li>
+            <li class="navitem p-3"><a href="#" class="nav-link">Menu</a></li>
+            <li class="navitem p-3"><a href="#" class="nav-link">About Us</a></li>
+            <li class="navitem p-3"><a href="#" class="nav-link" id="calltoaction">Order Now</a></li>
+          </ul>
+        </div>
       </nav>
-      <section>
+      <section id="promo">
         <h1>Bob's Burgers</h1>
         <img src="img/logo.png" alt="Bob's Burger logo" title="Bob's Burger" />
         <button>Order Now</button>
@@ -59,4 +68,9 @@
     <script src="https://cdn.jsdelivr.net/npm/less@4.1.1" ></script>
 
   </body>
+
+  <!-- Resources
+  Navbar Bootstrap 5 | Bootstrap Navbar Tutorial - https://www.youtube.com/watch?v=qNifU_aQRio
+  
+  -->
 </html>
