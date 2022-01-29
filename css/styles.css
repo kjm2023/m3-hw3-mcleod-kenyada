@@ -3,7 +3,7 @@
 /* -- fonts */
 /* HEADER */
 header {
-  height: 500px;
+  height: 600px;
 }
 /* -- nav */
 nav {
@@ -28,8 +28,44 @@ nav a {
 }
 /* -- promo */
 #promo {
-  height: 350px;
-  background-image: url(../img/banner-bg.png);
+  height: 450px;
+  background: url(../img/banner-bg.png) rgba(59, 56, 56, 0.33);
+  background-blend-mode: multiply;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#logo {
+  position: relative;
+  top: 30%;
+}
+.order-button {
+  background-color: #F8DF1F;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  position: relative;
+  top: 20%;
+}
+/* MAIN */
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: #050500;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+h2 span {
+  color: #EE252F;
+}
+/* FOOTER */
+footer {
+  height: 300px;
+  background-color: #050500;
+  border-top-width: 20px;
+  border-top-color: #F8DF1F;
+  border-top-style: solid;
 }
 /* MEDIA QUERIES */
 /* @media only screen and (max-width : 420px) {
