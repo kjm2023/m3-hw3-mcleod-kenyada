@@ -1,7 +1,6 @@
 /* VARIABLES */
 /* -- colors */
 /* -- fonts */
-/* MIX-INS */
 /* HEADER */
 header {
   height: 600px;
@@ -59,6 +58,7 @@ h2 {
 }
 h2 span {
   color: #EE252F;
+  text-transform: uppercase;
 }
 /* FOOTER */
 footer {
