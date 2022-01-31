@@ -1,6 +1,7 @@
 /* VARIABLES */
 /* -- colors */
 /* -- fonts */
+/* MIX-INS */
 /* HEADER */
 header {
   height: 600px;
@@ -67,9 +68,3 @@ footer {
   border-top-color: #F8DF1F;
   border-top-style: solid;
 }
-/* MEDIA QUERIES */
-/* @media only screen and (max-width : 420px) {
-    .navbar-collapse {
-    background: @steel;
-  }
-}*/
